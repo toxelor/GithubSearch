@@ -1,6 +1,8 @@
 {
   "name": "vite-template-redux",
   "homepage": "https://toxelor.github.io/GithubSearch",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build",
   "private": true,
   "version": "0.0.0",
   "type": "module",

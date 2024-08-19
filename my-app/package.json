@@ -1,5 +1,6 @@
 {
   "name": "vite-template-redux",
+  "homepage": "https://toxelor.github.io/GithubSearch",
   "private": true,
   "version": "0.0.0",
   "type": "module",

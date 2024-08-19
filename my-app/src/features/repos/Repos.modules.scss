@@ -1,0 +1,154 @@
+.header {
+    background-color: rgb(0, 131, 143);
+    padding: 18px 32px;
+    display: flex;
+    justify-items: start;
+    align-items: center;
+}
+
+.request_input {
+    width: 912px;
+    height: 40px;
+    top: 19px;
+    left: 32px;
+    gap: 0px;
+    border-radius: 4px;
+    border: none;
+    margin-right: 8px;
+    padding-right: 20px;
+    text-indent: 16px;
+      
+      &::-webkit-input-placeholder {
+        font-family: 'Roboto', Arial;
+        font-weight: 500px;
+        font-size: 14px;
+        color: rgb(0, 0, 0);
+      }
+      
+    
+}
+
+.search_button {
+    width: 105px;
+    height: 42px;
+}
+
+.info_div {
+    width: 100%;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+}
+
+.info_div_small {
+    width: 70%;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+}
+
+.info {
+    font-family: 'Roboto', Arial;
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 65.78px;
+    letter-spacing: 0.17000000178813934px;
+    text-align: center;
+    color: #4F4F4F;
+    flex: 1;
+}
+
+.sidebar {
+    position: absolute;
+    width: 456px;
+    height: 568px;
+    right: 0;
+    top: 79px;
+    padding: 24px 24px;
+    background-color:#F2F2F2;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.sidebar_text {
+    width: 456px;
+    height: 568px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20.02px;
+    letter-spacing: 0.17000000178813934px;
+    text-align: center;
+
+}
+
+.sidebar_name {
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.sidebar_language {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 408px;
+    margin-bottom: 16px;
+}
+
+.sidebar_stars {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.sidebar_topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.sidebar_license {
+    display: flex;
+}
+
+.search_results {
+    font-family: 'Roboto';
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56.02px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.resuls_wrapper {
+    padding: 24px 32px;
+}
+
+.repo {
+    cursor: pointer;
+    transition: 200ms;
+    &:hover {
+        background-color: rgb(245, 245, 245);
+    }
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 32px;
+    width: 100vw;
+    background-color: #4F4F4F;
+
+}
